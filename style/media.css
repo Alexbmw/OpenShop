@@ -1,0 +1,184 @@
+@media(prefers-color-scheme: dark){
+    :root {
+        --secondary-background: #313131;
+        --primary-text-color: #FFFFFF;
+    }
+    .logo-img{
+        content: url('../images/Logo\ \(Black\).png');
+    }
+    body{
+        background: var(--secondary-background);
+    }
+    .header__content_2{
+        background: black;
+    }
+    .header__content-text_2{
+        color: var(--primary-text-color);
+    }
+    .header__content-link{
+        border: 1px solid #FFFFFF;
+    }
+    .header__content-img {
+        background: radial-gradient(29.86% 47.86% at 50% 50%, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+    }
+    .main__link{
+        border: 1px solid #FFFFFF;
+    }
+    .main__catalog-link{
+        border: 1px solid #FFFFFF;
+    }
+    .fa-heart::before{
+        color: var(--primary-text-color);
+    }
+    .main__catalog-blok:hover{
+        box-shadow: 0px 0px 2px rgba(180, 163, 163, 0.5);
+    }
+    .main__logo{
+        content: url('../img/PS5.png');
+    }
+    .main__title{
+        color: var(--primary-text-color);
+    }
+    .main__link_2{
+        border: 1px solid #FFFFFF;
+    }
+    .main__img_2{
+        background: radial-gradient(49.86% 37.86% at 50% 50%, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+    }
+    .footer{
+        background: black;
+    }
+    .main__catalog-img_2{
+        background: radial-gradient(46.86% 30.86% at 50% 50%, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+    }
+    .main__box-item{
+        background: var(--primary-text-color);
+    }
+    .main__catalog-description{
+        color: var(--primary-text-color);
+    }
+    .main__catalog-price{
+        color: var(--primary-text-color);
+    }
+    .header__nav-content{
+        border: 1px solid #FFFFFF;
+    }
+    .btn{
+        color: var(--primary-text-color);
+    }
+    .dropdown-menu{
+        background: black;
+    }
+    .title{
+        color: var(--primary-text-color);
+    }
+    .dropdown-item{
+        color: var(--primary-text-color);
+    }
+    .main__catalog-title_2{
+        color: var(--primary-text-color);
+    }
+    .main__catalog-title{
+        color: var(--primary-text-color);
+    }
+    .page__header-content{
+        background: black;
+    }
+    .page__main-title{
+        color: var(--primary-text-color);
+    }
+    .page__main-price{
+        color: var(--primary-text-color);
+    }
+    .page__main-title_2{
+        color: var(--primary-text-color);
+    }
+    .page__main-list{
+        color: var(--primary-text-color);
+    }
+    .page__main-link{
+        border: 1px solid #FFFFFF;
+    }
+    .main__abbout-title{
+        color: var(--primary-text-color);
+    }
+    .main__abbout-description{
+        color: var(--primary-text-color);
+    }
+    .page__img{
+        background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+    }
+    }
+    @media(max-width: 998px){
+        .main__content_2{
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .main__catalog-title{
+            display: flex;
+            justify-content: center;
+        }
+        .main__catalog-title_2{
+            display: flex;
+            justify-content: center;
+        }
+        .footer__icons{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding-top: 30px;
+        }
+        .footer__search{
+            padding-left: 60px;
+        }
+        .main__catalog-box{
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .main__catalog-box_2{
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .main__content-box{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .header__nav-content{
+            margin-right: 0;
+        }
+    }
+    @media(max-width: 775px){
+        .footer__content{
+            flex-wrap: wrap;
+        }
+        .footer__link{
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+        .footer__content{
+            justify-content: center;
+            text-align: center;
+        }
+        .header__content-items{
+            flex-wrap: wrap;
+        }
+        .header__nav-menu-sheet{
+            flex-wrap: wrap;
+        }
+    }
+    @media(max-width: 768px){
+        .header__control{
+            height: 50px;
+            width: 100%;
+        }
+        .header__nav-title{
+            height: 50px;
+            padding: 0;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+        }
+    }
+
